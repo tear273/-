@@ -2,8 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonManager
+    - ChangeMap
     - Check
     - CollisionCheck
+    - CountDown
+    - OrbitAround
     - Player_Controller
     - PrintWinner
     - Score
@@ -55,24 +58,20 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 11512}
+      Script: {instanceID: 11518}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 12706}
     - Class: 114
-      Script: {instanceID: 12700}
-    - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 13058}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -106,21 +105,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12238}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12706}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 13058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -162,27 +161,57 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 11342}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 11452}
+    - Class: 114
+      Script: {instanceID: 11836}
+    - Class: 114
+      Script: {instanceID: 11956}
+    - Class: 114
+      Script: {instanceID: 12142}
+    - Class: 114
+      Script: {instanceID: 12156}
+    - Class: 114
+      Script: {instanceID: 12250}
+    - Class: 114
+      Script: {instanceID: 12706}
+    - Class: 114
+      Script: {instanceID: 12912}
+    - Class: 114
+      Script: {instanceID: 12994}
+    - Class: 114
+      Script: {instanceID: 13058}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -197,6 +226,14 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Map3.unity:
     - Class: 1
@@ -223,6 +260,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -231,36 +270,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11336}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11342}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11950}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 11956}
     - Class: 114
-      Script: {instanceID: 12244}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12906}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 12706}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 12912}
+    - Class: 114
+      Script: {instanceID: 12994}
+    - Class: 114
+      Script: {instanceID: 13058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -296,35 +343,57 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11342}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12232}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12250}
+    - Class: 114
+      Script: {instanceID: 12706}
+    - Class: 114
+      Script: {instanceID: 13058}
+    - Class: 114
+      Script: {instanceID: 13106}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -339,6 +408,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -363,6 +438,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a7d8d5a42fa046ebddc40dcb4a5c3498
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CountDown
   - hash:
       serializedVersion: 2
       Hash: 1cef9d90a67c2eb8eee5e614e51ca5ce
@@ -443,7 +524,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 06d9ef79e7055305ac6c97b0cd483e72
+      Hash: 61c7503cfcb88e1b7aec7d533fbdc409
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PrintWinner
@@ -551,6 +632,12 @@ ScriptsOnlyBuild:
     className: WInnerCheck
   - hash:
       serializedVersion: 2
+      Hash: b73c61163720dded85d97d0264f40564
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeMap
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -575,7 +662,7 @@ ScriptsOnlyBuild:
     className: TileCheck
   - hash:
       serializedVersion: 2
-      Hash: a5f058d442fbd81fbf0974dd3fc6697a
+      Hash: 74970dba4c34310f3879b8c1d351a700
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player_Controller
@@ -593,13 +680,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: c3269042a07bce9b2f2218921070af22
+      Hash: 8fd82ae2b57f9c9dc8651958eb2c96bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonManager
@@ -701,7 +782,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: eec9b17095962f60f527b5234199c965
+      Hash: 1cd3e4976752d4b22f07f35b740a68f7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
@@ -801,6 +882,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 50a18517cd673fe7a821b5e84c1706eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OrbitAround
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb

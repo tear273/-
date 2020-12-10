@@ -9,8 +9,12 @@ public class ButtonManager : MonoBehaviour
     public GameObject canvas;
     public bool Menu;
     public Text[] Txt;
+    public int rand;
+
     private void Start()
     {
+        rand = Random.Range(0, 2);
+
         if (!Menu)
         {
             Txt = canvas.GetComponentsInChildren<Text>();
@@ -19,10 +23,20 @@ public class ButtonManager : MonoBehaviour
                 Txt[i].gameObject.SetActive(false);
             }
         }
+
+
     }
     public void GameStart()
     {
-        SceneManager.LoadScene("Map3");
+        if(rand == 1)
+        {
+            SceneManager.LoadScene("Map3");
+        }
+        else
+        {
+            SceneManager.LoadScene("Map2");
+        }
+        
     }
 
     public void Explain()

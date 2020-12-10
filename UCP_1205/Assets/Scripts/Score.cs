@@ -47,11 +47,20 @@ public class Score : MonoBehaviour
                 {
                     WInnerCheck.Instance.SetWinner("Blue");
                 }
+                else if(p1score == p2score)
+                {
+                    WInnerCheck.Instance.SetWinner("Draw");
+                }
             
                 SceneManager.LoadScene("Ending");
            }
         }
 
         
+    }
+
+    public void StopGame()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
